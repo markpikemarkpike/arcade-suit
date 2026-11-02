@@ -16,7 +16,7 @@ We built it to be interactive. The screen faces out and the controller is wirele
 
 Note: I'm a non-technical lawyer. I can't really code. Claude wrote all the firmware, the guides and most of this README. Full disclosure: I work at Anthropic. This is a personal project, not an Anthropic product.
 
-![Two kids on a sidewalk, seen from the shoulders down. One holds the controller. The other wears the LED screen. Everything but the screen and the controller is blurred.](docs/friends.jpg)
+![Two kids on a sidewalk, seen from the shoulders down. One in a fuzzy costume holds the controller. The other wears the LED screen.](docs/friends.jpg)
 
 ## Buttons
 
