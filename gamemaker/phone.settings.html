@@ -1,0 +1,11 @@
+<details id="set"><summary>Grown-up settings</summary><div>
+<label>Claude API key. It stays in this browser and is never sent to the suit.<input id="key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sk-ant-..."></label>
+<label>Model<select id="model"><option value="claude-sonnet-5-5">Sonnet 5.5 (best mix)</option><option value="claude-haiku-5-5">Haiku 5.5 (fastest)</option><option value="claude-opus-5-5">Opus 5.5 (smartest, slower)</option></select></label>
+<label>Other model name (normally empty)<input id="model2" autocapitalize="off" autocorrect="off" spellcheck="false"></label>
+<h2>Wi-Fi the suit joins</h2>
+<button type="button" class="gm-small" id="scan">Look for networks</button>
+<label>Network name<select id="nets" hidden></select><input id="ssid" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="iPhone hotspot name"></label>
+<label>Password<input id="pass" autocapitalize="off" autocorrect="off" spellcheck="false"></label>
+<button type="button" class="gm-small" id="join">Save and join</button>
+<h2>Under the hood</h2><pre id="diag"></pre><pre id="code"></pre>
+</div></details>

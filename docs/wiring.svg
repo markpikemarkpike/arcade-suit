@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" font-family="Helvetica,Arial,sans-serif" role="img" aria-label="Wiring diagram. The power bank's USB-A cable splits into red and black. Red goes to the plus nut, black to the minus nut. The panel plug's red wire goes to plus, white to minus, green to data. The M5Stack's yellow wire from pin T2 is twisted with green in the data nut. Its grey wire from pin G is twisted with white in the minus nut. A USB-C cable powers the M5Stack from the power bank.">
+  <rect width="940" height="430" fill="#ffffff"/><defs><style>.lb{font-size:14px;fill:#1b1640}.sm{font-size:12.5px;fill:#575182}.hd{font-size:15px;font-weight:700;fill:#1b1640}.w{fill:none;stroke-width:5;stroke-linecap:round}</style></defs>
+  <!-- power bank -->
+  <rect x="24" y="40" width="170" height="86" rx="12" fill="#1c1d22"/><text x="109" y="80" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Power bank</text><text x="109" y="100" text-anchor="middle" fill="#b9bac4" font-size="12">5 V</text>
+  <text x="204" y="56" class="sm">USB-A</text><text x="128" y="144" class="sm">USB-C</text>
+  <!-- pigtail -->
+  <path class="w" d="M194 66 H300" stroke="#1c1d22" stroke-width="9"/>
+  <path class="w" d="M300 66 C350 66 360 62 420 62" stroke="#e03a3e"/>
+  <path class="w" d="M300 66 C360 70 340 196 420 196" stroke="#1c1d22"/>
+  <!-- usb-c to m5 -->
+  <path class="w" d="M194 110 C250 110 262 250 150 300" stroke="#1c1d22" stroke-width="7" stroke-dasharray="1 0"/>
+  <text x="238" y="232" class="sm">USB-C cable</text>
+  <!-- m5stack -->
+  <rect x="34" y="290" width="116" height="116" rx="12" fill="#1c1d22"/><rect x="48" y="304" width="88" height="62" rx="3" fill="#0b2a44"/><text x="92" y="340" text-anchor="middle" fill="#7fd7ff" font-size="13">M5Stack</text>
+  <rect x="56" y="380" width="18" height="8" rx="3" fill="#e8e8ec"/><rect x="83" y="380" width="18" height="8" rx="3" fill="#e8e8ec"/><rect x="110" y="380" width="18" height="8" rx="3" fill="#e8e8ec"/>
+  <text x="160" y="352" class="sm">pin T2 (17)</text><text x="160" y="398" class="sm">pin G</text>
+  <path class="w" d="M150 360 C300 360 320 336 420 336" stroke="#e9b800" stroke-width="3.5"/>
+  <path class="w" d="M150 404 C340 410 330 214 420 214" stroke="#8b8f9a" stroke-width="3.5"/>
+  <!-- nuts -->
+  <g><rect x="420" y="36" width="120" height="56" rx="8" fill="#fdf7ee" stroke="#e03a3e" stroke-width="3"/><rect x="500" y="42" width="34" height="44" rx="4" fill="#ef7d1a"/><text x="460" y="70" text-anchor="middle" class="hd">+ RED</text></g>
+  <g><rect x="420" y="176" width="120" height="56" rx="8" fill="#fdf7ee" stroke="#1c1d22" stroke-width="3"/><rect x="500" y="182" width="34" height="44" rx="4" fill="#ef7d1a"/><text x="460" y="210" text-anchor="middle" class="hd">&#8722; BLACK</text></g>
+  <g><rect x="420" y="316" width="120" height="56" rx="8" fill="#fdf7ee" stroke="#12905a" stroke-width="3"/><rect x="500" y="322" width="34" height="44" rx="4" fill="#ef7d1a"/><text x="460" y="350" text-anchor="middle" class="hd">D DATA</text></g>
+  <!-- wesiri wires -->
+  <path class="w" d="M540 64 C640 64 640 188 730 188" stroke="#e03a3e"/>
+  <path class="w" d="M540 204 H730" stroke="#1b1640" stroke-width="7"/><path class="w" d="M540 204 H730" stroke="#fff"/>
+  <path class="w" d="M540 344 C640 344 640 220 730 220" stroke="#12905a"/>
+  <rect x="730" y="174" width="46" height="60" rx="5" fill="#1c1d22"/><text x="753" y="162" text-anchor="middle" class="sm">JST-SM plug</text>
+  <rect x="790" y="120" width="130" height="168" rx="4" fill="#0c0c10"/><g fill="#d9d9e2"><rect x="802" y="132" width="8" height="8"/><rect x="820" y="132" width="8" height="8"/><rect x="838" y="132" width="8" height="8"/><rect x="856" y="132" width="8" height="8"/><rect x="874" y="132" width="8" height="8"/><rect x="892" y="132" width="8" height="8"/></g>
+  <text x="855" y="204" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Panel 1</text><text x="855" y="224" text-anchor="middle" fill="#b9bac4" font-size="12">DIN side</text>
+  <path d="M776 204 H790" stroke="#1c1d22" stroke-width="8"/>
+  <!-- callouts -->
+  <text x="420" y="394" class="sm">green + yellow, twisted into one strand, ONE hole</text>
+  <text x="420" y="254" class="sm">white + grey, twisted, ONE hole</text>
+  <text x="420" y="112" class="sm">two reds, one hole each</text>
+</svg>

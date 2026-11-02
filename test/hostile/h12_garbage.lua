@@ -1,0 +1,1 @@
+function _draw() pset(0/0,1/0,-1/0) rectfill(-1e30,-1e30,1e30,1e30,1e30) circfill(1e9,1e9,1e9,3) line(-1e9,-1e9,1e9,1e9,2) print(nil,0/0,0) print({},1,1) spr({1,2,{}},0,0) hsv(0/0) rgb(1e30,-1e30,0/0) rnd({}) rnd(0/0) mid(0/0,1,2) flr(1e30) flr(0/0) camera(1e30,0/0) pget(1e30,0/0) btn(99) btn(0/0) end

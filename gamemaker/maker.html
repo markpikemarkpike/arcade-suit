@@ -1,0 +1,19 @@
+<div class="gm" id="gm">
+<div class="gm-top">
+<canvas class="gm-mini" id="mini" width="32" height="32" aria-label="A small copy of the LED screen"></canvas>
+<div class="gm-title"><b>Game Maker</b><span class="gm-pill" id="pill">Looking for the suit...</span></div>
+</div>
+<div class="gm-say" id="say" aria-live="polite"><p id="said">Say what you want to play. It shows up on the suit!</p>
+<ol class="gm-steps" id="steps" hidden><li>Heard</li><li>Writing</li><li>Sending</li><li>Playing</li></ol></div>
+<form class="gm-ask" id="form">
+<label for="ask">What do you want to play?</label>
+<div class="gm-box" id="box"><textarea id="ask" rows="3" maxlength="400" placeholder="A bat that eats candy"></textarea>
+<button type="button" class="gm-mic" id="mic" aria-label="Talk" hidden><svg viewBox="0 0 24 24"><path d="M12 15a4 4 0 0 0 4-4V6a4 4 0 0 0-8 0v5a4 4 0 0 0 4 4zm7-4a7 7 0 0 1-6 6.9V21h-2v-3.1A7 7 0 0 1 5 11h2a5 5 0 0 0 10 0z"/></svg></button></div>
+<p class="gm-hint" id="hint" hidden><svg viewBox="0 0 24 24"><path d="M12 15a4 4 0 0 0 4-4V6a4 4 0 0 0-8 0v5a4 4 0 0 0 4 4zm7-4a7 7 0 0 1-6 6.9V21h-2v-3.1A7 7 0 0 1 5 11h2a5 5 0 0 0 10 0z"/></svg><span>To talk, tap the box, then the microphone on the keyboard.</span></p>
+<div class="gm-chips" id="ideas"></div>
+<div class="gm-go"><button type="submit" class="gm-big gm-new" id="new">Make it</button>
+<button type="button" class="gm-big gm-chg" id="chg" hidden>Change this game</button></div>
+</form>
+<div class="gm-shelf" id="shelf" hidden><h2>My games</h2><div class="gm-grid" id="mine"></div></div>
+<!--SETTINGS-->
+</div>

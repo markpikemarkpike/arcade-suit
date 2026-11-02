@@ -1,0 +1,7 @@
+build/
+arcade_suit/build/
+gamemaker/page.html
+test/out/
+web/obj/
+node_modules/
+.DS_Store
